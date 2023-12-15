@@ -1,5 +1,5 @@
 apiVersion: v2
-name: opensearch
+name: opensearch-master
 description: A Helm chart for OpenSearch
 
 # A chart can be either an 'application' or a 'library' chart.
