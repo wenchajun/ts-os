@@ -1,0 +1,31 @@
+kind: ClusterRole
+rules:
+  - verbs:
+      - 'create'
+      - 'patch'
+      - 'update'
+      - 'get'
+    apiGroups:
+      - 'extensions.kubesphere.io'
+    resources:
+      - '*'
+  - verbs:
+      - '*'
+    apiGroups:
+      - ''
+    resources:
+      - 'secrets'
+      - 'configmaps'
+      - 'services'
+  - verbs:
+      - '*'
+    apiGroups:
+      - 'apps'
+    resources:
+      - 'statefulsets'
+  - verbs:
+      - '*'  
+    apiGroups:
+      - policy
+    resources:
+      - poddisruptionbudgets
