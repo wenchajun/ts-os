@@ -25,7 +25,7 @@ staticFileDirectory: static
 sources:
   - https://github.com/kubesphere
 kubeVersion: ">=1.19.0"
-ksVersion: ">=3.0.0"
+ksVersion: ">=4.0.0"
 staticFileDirectory: static
 icon: ./static/opensearch.svg
 dependencies:
