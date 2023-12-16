@@ -1,0 +1,5 @@
+opensearch-master:
+  namespaceOverride: kubesphere-logging-system
+
+opensearch-data:
+  namespaceOverride: kubesphere-logging-system

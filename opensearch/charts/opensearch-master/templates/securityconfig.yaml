@@ -3,7 +3,7 @@ apiVersion: v1
 kind: Secret
 metadata:
   name: {{ include "opensearch.uname" . }}-securityconfig
-  namespace: {{ .Release.Namespace }}
+  namespace: {{ include "logging.namespaceOverride" . }}
   labels:
     {{- include "opensearch.labels" . | nindent 4 }}
 type: Opaque

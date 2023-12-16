@@ -4,6 +4,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: {{ template "opensearch.uname" . }}-config
+  namespace: {{ include "logging.namespaceOverride" . }}
   labels:
     {{- include "opensearch.labels" . | nindent 4 }}
 data:

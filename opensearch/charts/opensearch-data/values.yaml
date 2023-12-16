@@ -137,7 +137,7 @@ openSearchAnnotations: {}
 # additionals labels
 labels: {}
 
-opensearchJavaOpts: "-Xmx512M -Xms512M"
+opensearchJavaOpts: "-Xmx1536M -Xms1536M"
 
 resources:
   requests:
@@ -209,7 +209,7 @@ persistence:
   # storageClass: "-"
   accessModes:
     - ReadWriteOnce
-  size: 8Gi
+  size: 20Gi
   annotations: {}
 
 extraVolumes: []
