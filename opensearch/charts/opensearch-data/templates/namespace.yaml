@@ -1,4 +1,4 @@
-{{- $name := include "logging.namespaceOverride" . }}
+{{- $name := include "opensearch-data.namespaceOverride" . }}
 {{- $namespace := (lookup "v1" "Namespace" "" $name) -}}
 {{- if not $namespace }}
 apiVersion: v1

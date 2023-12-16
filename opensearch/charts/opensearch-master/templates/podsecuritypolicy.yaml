@@ -5,7 +5,7 @@ apiVersion: policy/v1beta1
 kind: PodSecurityPolicy
 metadata:
   name: {{ default $fullName .Values.podSecurityPolicy.name | quote }}
-  namespace: {{ include "logging.namespaceOverride" . }}
+  namespace: {{ include "opensearch-master.namespaceOverride" . }}
   labels:
     {{- include "opensearch.labels" . | nindent 4 }}
 spec:

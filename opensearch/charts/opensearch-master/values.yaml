@@ -18,6 +18,8 @@ roles:
 
 replicas: 1
 
+namespaceOverride: ""
+
 # if not set, falls back to parsing .Values.imageTag, then .Chart.appVersion.
 majorVersion: ""
 

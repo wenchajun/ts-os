@@ -1,5 +1,5 @@
 {{/*namespace*/}}
-{{- define "logging.namespaceOverride" -}}
+{{- define "opensearch-master.namespaceOverride" -}}
   {{- if .Values.namespaceOverride -}}
     {{- .Values.namespaceOverride -}}
   {{- else -}}
