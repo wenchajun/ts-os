@@ -31,7 +31,8 @@ icon: ./static/opensearch.svg
 dependencies:
   - name: opensearch-master
     tags:
-      - extension
+      - agent
   - name: opensearch-data
     tags:
-      - extension
+      - agent
+installationMode: Multicluster
