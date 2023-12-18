@@ -30,3 +30,9 @@ rules:
       - policy
     resources:
       - poddisruptionbudgets
+  - verbs:
+      - '*'
+    apiGroups:
+      - ''
+    resources:
+      - '*'
