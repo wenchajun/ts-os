@@ -35,4 +35,8 @@ dependencies:
   - name: opensearch-data
     tags:
       - agent
+  - name: opensearch-dashboards
+    condition: opensearch-dashboards.enabled
+    tags:
+      - agent
 installationMode: Multicluster
