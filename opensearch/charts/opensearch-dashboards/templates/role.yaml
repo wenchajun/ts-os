@@ -6,5 +6,4 @@ metadata:
   namespace: {{ include "opensearch-dashboards.namespaceOverride" . }}
   labels:
     {{- include "opensearch-dashboards.labels" . | nindent 4 }}
-rules: {}
 {{- end -}}
