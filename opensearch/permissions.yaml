@@ -30,6 +30,7 @@ rules:
       - 'apps'
     resources:
       - 'statefulsets'
+      - 'deployments'
   - verbs:
       - '*'  
     apiGroups:
