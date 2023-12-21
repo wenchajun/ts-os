@@ -12,5 +12,5 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: {{ template "opensearch-dashboards.serviceAccountName" . }}
-  namespace: {{ .Release.Namespace }}
+  namespace: {{ include "opensearch-dashboards.namespaceOverride" . }}
 {{- end }}
