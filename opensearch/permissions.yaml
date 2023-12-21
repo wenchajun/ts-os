@@ -18,6 +18,7 @@ rules:
       - 'configmaps'
       - 'services'
       - 'namespaces'
+      - 'rolebindings'
   - verbs:
       - '*'
     apiGroups:
