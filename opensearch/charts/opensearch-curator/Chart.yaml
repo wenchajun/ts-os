@@ -4,6 +4,6 @@ keywords:
 - curator
 - opensearch
 - opensearch-curator
-name: opencsearch-curator
+name: opensearch-curator
 version: 0.0.5
 appVersion: 0.0.5
