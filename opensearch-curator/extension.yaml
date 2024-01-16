@@ -1,0 +1,29 @@
+apiVersion: v1
+name: opensearch-curator
+version: 0.0.5
+displayName:
+  zh: OpenSearch 日志清理扩展组件
+  en: OpenSearch Log Cleanup Extension
+description:
+  zh: OpenSearch 日志清理扩展组件将定期清理超过保存期限（可配置，默认为7天）的 K8s 事件、审计和应用日志。
+  en: The OpenSearch log cleanup extension will periodically clean up K8s event logs, K8s auditing logs, and K8s application logs older than a configurable period (7 days by default).
+category: logging
+keywords:
+  - Observability
+  - Logging
+provider:
+  zh:
+    name: "青云科技"
+    email: "support@kubesphere.cloud"
+    url: "https://www.qingcloud.com"
+  en:
+    name: "QingCloud"
+    email: "support@kubesphere.cloud"
+    url: "https://www.qingcloud.com"
+home: https://kubesphere.io
+sources:
+  - https://github.com/kubesphere
+kubeVersion: ">=1.19.0"
+ksVersion: ">=3.0.0"
+staticFileDirectory: static
+icon: ./static/favicon.svg
